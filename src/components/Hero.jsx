@@ -63,9 +63,9 @@ function Hero() {
 
               <a
                 href="/CV.pdf"
-                className="flex items-center gap-2 px-8 py-4 rounded-2xl border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-600 hover:text-white duration-300"
+                className="flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold text-base shadow-[0_20px_40px_rgba(37,99,235,.25)] hover:scale-105 duration-300"
               >
-                <HiDownload />
+                <HiDownload className="text-xl" />
                 Download CV
               </a>
 
