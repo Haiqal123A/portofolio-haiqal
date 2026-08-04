@@ -29,7 +29,7 @@ function Skills() {
     {
       icon: <SiLaravel className="text-red-500 text-xl" />,
       title: "Backend Stack",
-      desc: "Laravel, Node.js, Express",
+      desc: " Node.js, Express",
       bgIcon: "bg-red-50/80",
     },
     {

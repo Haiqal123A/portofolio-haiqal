@@ -84,7 +84,7 @@ function About() {
                 Saya adalah siswa SMK Taruna Bhakti jurusan <strong className="text-slate-800 font-semibold">Rekayasa Perangkat Lunak (RPL)</strong> yang memiliki ketertarikan mendalam pada dunia <strong className="text-slate-800 font-semibold">Web Development</strong>.
               </p>
               <p>
-                Saya senang merancang dan membangun website modern yang responsif, cepat, serta memberikan pengalaman pengguna terbaik. Berbagai proyek sekolah telah saya selesaikan menggunakan ekosistem <span className="text-slate-900 font-medium">React, Laravel, Node.js,</span> dan <span className="text-slate-900 font-medium">MySQL</span>.
+                Saya senang merancang dan membangun website modern yang responsif, cepat, serta memberikan pengalaman pengguna terbaik. Berbagai proyek sekolah telah saya selesaikan menggunakan ekosistem <span className="text-slate-900 font-medium">React, Node.js,</span> dan <span className="text-slate-900 font-medium">MySQL</span>.
               </p>
               <p>
                 Prinsip saya adalah terus belajar dan beradaptasi dengan teknologi baru agar siap bersaing di dunia kerja profesional maupun perguruan tinggi.
