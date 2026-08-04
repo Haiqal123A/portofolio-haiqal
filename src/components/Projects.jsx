@@ -6,8 +6,8 @@ function Projects() {
       title: "Portofolio",
       image: "/portofolio.png",
       description:
-        "Website pemesanan tiket bus online dengan fitur login, booking kursi, pembayaran dan dashboard admin.",
-      link: "https://github.com/username/busfast",
+        "Portofolio web ini dirancang dengan gaya modern-minimalis yang menyajikan profil profesional secara ringkas, jelas, dan interaktif",
+      link: "https://github.com/Haiqal123A/portofolio",
       tech: ["React", "Laravel", "Tailwind"],
       isFigma: false,
     },

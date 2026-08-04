@@ -62,7 +62,8 @@ function Hero() {
               </a>
 
               <a
-                href="/CV.pdf"
+                href="public/CV.pdf"
+                download="public/CV.pdf"
                 className="flex items-center gap-2 px-8 py-4 rounded-2xl border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-600 hover:text-white duration-300"
               >
                 <HiDownload />
@@ -85,7 +86,7 @@ function Hero() {
   </a>
 
   <a
-    href="https://linkedin.com/in/USERNAME_LINKEDIN"
+    href="https://www.linkedin.com/in/haiqalrachmatsyarief/"
     target="_blank"
     rel="noopener noreferrer"
     className="w-14 h-14 rounded-full bg-white shadow-lg flex items-center justify-center text-xl hover:-translate-y-2 hover:text-blue-600 hover:shadow-2xl duration-300"
