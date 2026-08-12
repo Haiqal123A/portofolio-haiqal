@@ -110,7 +110,7 @@ function Home() {
                 Haiqal Rachmat Syarief
               </h3>
               <p className="mt-2 text-sm lg:text-base font-semibold text-blue-600 tracking-wide">
-                Student • SMK Taruna Bhakti • Software Engineer
+                Student • SMK Taruna Bhakti • Full Stack Developer
               </p>
             </div>
 

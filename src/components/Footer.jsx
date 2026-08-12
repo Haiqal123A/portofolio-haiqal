@@ -97,7 +97,7 @@ function Footer() {
 
         {/* Bottom Bar Footer */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} Haiqal Rachmat Syarief. Crafted with passion.</p>
+          <p>© {new Date().getFullYear()} Haiqal Rachmat Syarief.</p>
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
             <span>Built with React & Tailwind CSS</span>
