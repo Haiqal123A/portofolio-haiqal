@@ -7,7 +7,7 @@ function Projects() {
       image: "/portofolio.png",
       description:
         "Portofolio web ini dirancang dengan gaya modern-minimalis yang menyajikan profil profesional secara ringkas, jelas, dan interaktif",
-      link: "https://github.com/Haiqal123A/portofolio",
+      link: "https://github.com/Haiqal123A/portofolio-haiqal",
       tech: ["React", "Laravel", "Tailwind"],
       isFigma: false,
     },
