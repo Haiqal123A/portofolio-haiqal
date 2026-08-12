@@ -14,7 +14,7 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const menus = ["Home", "About", "Skills", "Projects", "Contact"];
+  const menus = [ "Home", "Skills", "Projects", "Contact"];
 
   return (
     <header className="fixed top-5 left-0 w-full flex justify-center z-50 px-5">

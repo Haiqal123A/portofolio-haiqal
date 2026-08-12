@@ -1,9 +1,11 @@
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+
 import { HiDownload } from "react-icons/hi";
 import { FiSend } from "react-icons/fi";
 
-function About() {
+function Home() {
   return (
-    <section id="about" className="relative py-24 lg:py-32 overflow-hidden bg-[#fafcff]">
+    <section id="home" className="relative py-24 lg:py-32 overflow-hidden bg-[#fafcff]">
       {/* Background Radial Gradients & Mesh Grid */}
       <div className="absolute inset-0 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:24px_24px] opacity-40 pointer-events-none"></div>
       <div className="absolute top-1/4 -left-20 w-96 h-96 rounded-full bg-blue-300/30 blur-[130px] pointer-events-none"></div>
@@ -14,9 +16,7 @@ function About() {
         
         {/* HEADER SECTION */}
         <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-          <h2 className="text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">
-            About <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Me</span>
-          </h2>
+          
           <p className="text-slate-500 text-base lg:text-lg leading-relaxed">
             Perkenalan singkat mengenai diri saya sebagai siswa Rekayasa Perangkat Lunak yang berfokus pada pengembangan web modern.
           </p>
@@ -26,11 +26,11 @@ function About() {
         <div className="grid lg:grid-cols-2 items-start gap-20">
           
           {/* ================= LEFT: FOTO & TOMBOL ================= */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-start">
             {/* PHOTO CARD CONTAINER */}
-            <div className="relative flex justify-center w-full">
+            <div className="relative max-w-[420px] w-full">
               {/* Glow */}
-              <div className="absolute w-[500px] h-[500px] rounded-full bg-blue-400/20 blur-[130px]"></div>
+              <div className="absolute left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-blue-400/20 blur-[130px]"></div>
 
               {/* Card Foto */}
               <div className="relative bg-white p-5 rounded-[38px] shadow-[0_35px_80px_rgba(37,99,235,.20)] -rotate-1 hover:rotate-0 duration-500">
@@ -39,14 +39,21 @@ function About() {
                   alt="Haiqal Rachmat Syarief"
                   className="w-[420px] h-[520px] object-cover rounded-[28px]"
                 />
+              </div>
 
-               
-                 
+              <div className="absolute -left-4 top-16 bg-white px-6 py-4 rounded-2xl shadow-xl">
+                <p className="text-slate-500 text-sm">Experience</p>
+                <h3 className="font-bold text-2xl text-slate-900">2+ Years</h3>
+              </div>
+
+              <div className="absolute -right-4 bottom-16 bg-white px-6 py-4 rounded-2xl shadow-xl">
+                <p className="text-slate-500 text-sm">Projects</p>
+                <h3 className="font-bold text-2xl text-slate-900">6+</h3>
               </div>
             </div>
 
             {/* BUTTONS DI BAWAH FOTO */}
-            <div className="flex flex-wrap justify-center gap-5 mt-10 w-full">
+            <div className="flex flex-wrap justify-start gap-5 mt-10 w-full">
               <a
                 href="/CV.pdf"
                 className="flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold text-base shadow-[0_20px_40px_rgba(37,99,235,.25)] hover:scale-105 duration-300"
@@ -63,6 +70,35 @@ function About() {
                 Contact Me
               </a>
             </div>
+
+            <div className="flex gap-5 mt-8 justify-start">
+              <a
+                href="https://github.com/Haiqal123A"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-14 h-14 rounded-full bg-white shadow-lg flex items-center justify-center text-xl hover:-translate-y-2 hover:text-black hover:shadow-2xl duration-300"
+              >
+                <FaGithub />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/haiqalrachmatsyarief/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-14 h-14 rounded-full bg-white shadow-lg flex items-center justify-center text-xl hover:-translate-y-2 hover:text-blue-600 hover:shadow-2xl duration-300"
+              >
+                <FaLinkedin />
+              </a>
+
+              <a
+                href="https://instagram.com/haiqalrachmatsyarief_"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-14 h-14 rounded-full bg-white shadow-lg flex items-center justify-center text-xl hover:-translate-y-2 hover:text-pink-500 hover:shadow-2xl duration-300"
+              >
+                <FaInstagram />
+              </a>
+            </div>
           </div>
 
           {/* ================= RIGHT: DESKRIPSI & INFO ================= */}
@@ -77,6 +113,8 @@ function About() {
                 Student • SMK Taruna Bhakti • Software Engineer
               </p>
             </div>
+
+            
 
             {/* Paragraphs */}
             <div className="mt-6 space-y-4 text-slate-600 text-base lg:text-lg leading-relaxed">
@@ -134,4 +172,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;

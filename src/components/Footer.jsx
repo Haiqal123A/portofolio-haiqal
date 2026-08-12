@@ -33,7 +33,7 @@ function Footer() {
               Navigation
             </h3>
             <ul className="space-y-3 text-sm text-slate-400">
-              {["About", "Skills", "Projects", "Contact"].map((item) => (
+              {["Home", "Skills", "Projects", "Contact"].map((item) => (
                 <li key={item}>
                   <a
                     href={`#${item.toLowerCase()}`}
